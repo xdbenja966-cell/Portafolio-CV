@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+/* Aviso de la esquina superior izquierda */
+.aviso {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.aviso h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.aviso p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Contenido central */
+.contenido {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenido h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.contenido p {
+    font-size: 22px;
+    color: #555;
+}

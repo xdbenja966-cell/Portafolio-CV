@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de Benjamín Suárez. Desarrollador web en formación.">
+    <title>Benjamín Suárez | Portafolio</title>
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- LOGO PAGINA -->
+    <link rel="shortcut icon" href="assets/logob.JPG" type="image/png">
+</head>
+
+<body>
+
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo">B<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#formacion" class="nav-link">Formación</a></li>
+
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INICIO -->
+        <section class="hero section" id="inicio">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <span class="eyebrow">HOLA, SOY</span>
+
+                    <h1>BENJAMÍN<br>SUÁREZ<span>.</span></h1>
+
+                    <h2>Desarrollador Web en formación.</h2>
+
+                    <p>
+                        Me apasiona la tecnología, el diseño y la creación
+                        de experiencias digitales. Siempre estoy aprendiendo
+                        y buscando nuevos desafíos para mejorar.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="documentos/CV-Benjamin-Suarez.pdf" download="CV-Benjamin-Suarez.pdf" class="btn-cv">
+                            Descargar CV
+                        </a>
+                    </div>
+                    <br>
+                    <div class="hero-buttons">
+                        <a href="#proyectos" class="btn btn-primary">
+                            Ver mis proyectos <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#contacto" class="btn btn-outline">
+                            Contactarme
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/xdbenja966-cell" target="_blank" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/benjaxsg.09/" target="_blank" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="mailto:xdbenja966@gmail.com" aria-label="Correo">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <!-- SOBRE MÍ -->
+        <section class="section about" id="sobre-mi">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">SOBRE MÍ</span>
+                    <h2>Un poco<br>sobre mí<span>.</span></h2>
+                </div>
+
+                <div class="about-content">
+
+                    <div class="about-text">
+                        <p>
+                            Soy Benjamín Suárez, estudiante de 17 años.
+                            Actualmente estoy cursando la secundaria con
+                            orientación en Programación.
+                        </p>
+
+                        <p>
+                            Desde siempre me interesó el mundo del desarrollo
+                            web y la tecnología en general. Disfruto aprender
+                            cosas nuevas, resolver problemas y ver cómo una
+                            idea puede convertirse en una página web o en
+                            una aplicación.
+                        </p>
+
+                        <p>
+                            Mi objetivo es seguir creciendo en este camino,
+                            mejorar mis habilidades y participar en proyectos
+                            que realmente me apasionen.
+                        </p>
+
+                        <a href="#habilidades" class="btn btn-outline">
+                            Conocé mis habilidades
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                    </div>
+
+                    <div class="about-cards">
+
+                        <article class="info-card">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <div>
+                                <h3>Estudiante</h3>
+                                <p>Secundaria - Orientación Programación</p>
+                            </div>
+                        </article>
+
+                        <article class="info-card">
+                            <i class="fa-solid fa-code"></i>
+                            <div>
+                                <h3>Apasionado por</h3>
+                                <p>Desarrollo web, diseño y tecnología</p>
+                            </div>
+                        </article>
+
+                        <article class="info-card">
+                            <i class="fa-solid fa-bullseye"></i>
+                            <div>
+                                <h3>Objetivo</h3>
+                                <p>Crear proyectos que dejen huella</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section class="section skills" id="habilidades">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">MIS HABILIDADES</span>
+                    <h2>Tecnologías<br>y herramientas<span>.</span></h2>
+                </div>
+
+                <div class="skills-content">
+
+                    <div class="skills-group">
+                        <h3>Lenguajes y tecnologías</h3>
+
+                        <div class="skills-grid">
+
+                            <article class="skill-card">
+                                <i class="fa-brands fa-html5 html"></i>
+                                <p>HTML</p>
+                            </article>
+
+                            <article class="skill-card">
+                                <i class="fa-brands fa-css3-alt css"></i>
+                                <p>CSS</p>
+                            </article>
+
+                            <article class="skill-card">
+                                <i class="fa-brands fa-js js"></i>
+                                <p>JavaScript</p>
+                            </article>
+
+                            <article class="skill-card">
+                                <i class="fa-solid fa-code cpp"></i>
+                                <p>C++</p>
+                            </article>
+
+                            <article class="skill-card">
+                                <i class="fa-brands fa-java java"></i>
+                                <p>Java</p>
+                            </article>
+
+                        </div>
+                    </div>
+
+                    <div class="skills-group tools-group">
+                        <h3>Otras herramientas</h3>
+
+                        <div class="skills-grid">
+
+                            <article class="skill-card">
+                                <i class="fa-brands fa-github"></i>
+                                <p>GitHub</p>
+                            </article>
+
+                            <article class="skill-card">
+                                <i class="fa-solid fa-code"></i>
+                                <p>VS Code</p>
+                            </article>
+
+                            <article class="skill-card">
+                                <i class="fa-brands fa-figma"></i>
+                                <p>Figma</p>
+                            </article>
+
+                            <article class="skill-card">
+                                <i class="fa-solid fa-server"></i>
+                                <p>XAMPP</p>
+                            </article>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <blockquote class="skills-quote">
+                    "No se trata de saber todo,<br>
+                    sino de tener ganas de seguir aprendiendo."
+                </blockquote>
+
+            </div>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section class="section projects" id="proyectos">
+            <div class="container">
+
+                <div class="projects-header">
+                    <div class="section-heading">
+                        <span class="eyebrow">MIS PROYECTOS</span>
+                        <h2>Trabajos que<br>he realizado<span>.</span></h2>
+                    </div>
+                </div>
+
+                <!-- FILTROS Y SELECTOR DE AÑO -->
+                <div class="projects-toolbar">
+                    <div class="project-filters">
+                        <button class="filter-btn active" data-filter="todos">Todo</button>
+
+                        <div class="year-selector">
+                            <button class="year-menu-btn" id="year-menu-btn" aria-label="Seleccionar año"
+                                aria-expanded="false" aria-controls="year-menu">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+
+                            <div class="year-menu" id="year-menu">
+                                <button type="button" data-year="5">5° año</button>
+                                <button type="button" data-year="6" class="selected">6° año</button>
+                            </div>
+                        </div>
+
+                        <button class="filter-btn" data-filter="juegos">Juegos</button>
+                        <button class="filter-btn" data-filter="web">Web</button>
+                        <button class="filter-btn" data-filter="educacion">Educación</button>
+                    </div>
+
+                    <span class="selected-year" id="selected-year">Proyectos de 6° año</span>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card" data-category="educacion" data-year="5">
+                        <img src="assets/raee.jpg" alt="Sitio web RAEE">
+                        <div class="project-info">
+                            <h3>Sitio web RAEE</h3>
+                            <p>
+                                Esta página web está dedicada a informar y concientizar sobre los Residuos de Aparatos
+                                Eléctricos y Electrónicos conocida como RAEE explicando qué son cómo afectan al medio
+                                ambiente y a la salud si se descartan mal y cuáles son las mejores formas de reciclarlos
+                                reutilizarlos y darles una disposición final responsable para cuidar el planeta.
+                            </p>
+                            <div class="project-tag">
+                                <span>HTML</span>
+                            </div>
+                            <div class="project-tag">
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-buttons">
+
+                                <a href="https://github.com/xdbenja966-cell/Pagina-RAE" class="project-btn project-btn-code"
+                                    target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                    Ver código
+                                </a>
+
+                                <a href="https://xdbenja966-cell.github.io/Pagina-RAE/" class="project-btn project-btn-live" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Ver página
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="educacion" data-year="5">
+                        <img src="assets/geoarg.jpg" alt="Geografía Argentina">
+                        <div class="project-info">
+                            <h3>Geografía Argentina</h3>
+                            <p>
+                                Esta página web está dedicada a explorar la geografía de la República Argentina
+                                recorriendo sus diversas regiones naturales relieves climas ríos provincias y recursos
+                                ofreciendo información clara mapas datos curiosos y contenidos educativos pensados para
+                                conocer y estudiar en profundidad el territorio argentino.
+                            </p>
+                            <div class="project-tag">
+                                <span>HTML</span>
+                            </div>
+                            <div class="project-tag">
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-buttons">
+
+                                <a href="https://github.com/xdbenja966-cell/La-Geografia-de-la-Argentina" class="project-btn project-btn-code" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                    Ver código
+                                </a>
+
+                                <a href="https://xdbenja966-cell.github.io/La-Geografia-de-la-Argentina/" class="project-btn project-btn-live" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Ver página
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="educacion" data-year="5">
+                        <img src="assets/f1.avif" alt="Geografía Argentina">
+                        <div class="project-info">
+                            <h3>Pagina sobre F1 (Formula 1)</h3>
+                            <p>
+                                Este proyecto es una página web dedicada a la Fórmula 1 que creé para reunir toda la
+                                información clave del campeonato en un solo lugar. En ella incluí secciones sobre los
+                                equipos, los pilotos, los circuitos del calendario, las tablas de posiciones y los
+                                horarios de las carreras, con la idea de ofrecer una herramienta rápida y fácil de usar
+                                para cualquier fanático que quiera seguir la temporada de cerca.
+                            </p>
+                            <div class="project-tag">
+                                <span>HTML</span>
+                            </div>
+                            <div class="project-tag">
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-buttons">
+
+                                <a href="https://github.com/xdbenja966-cell/F1-pagina-web" class="project-btn project-btn-code"
+                                    target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                    Ver código
+                                </a>
+
+                                <a href="https://xdbenja966-cell.github.io/F1-pagina-web/" class="project-btn project-btn-live" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Ver página
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="web" data-year="6">
+                        <img src="assets/mundial.jpg" alt="Mundiales">
+                        <div class="project-info">
+                            <h3>La Historia de los Mundiales</h3>
+                            <p>
+                                Esta página web está dedicada a recorrer la apasionante historia de la Copa Mundial de
+                                la
+                                FIFA desde su primera edición en 1930 hasta la actualidad reuniendo información
+                                detallada sobre todos los campeones sedes históricas partidos inolvidables estadísticas
+                                récords y las grandes leyendas que dejaron su huella en el torneo más importante del
+                                fútbol mundial.
+                            </p>
+                            <div class="project-tag">
+                                <span>HTML</span>
+                            </div>
+                            <div class="project-tag">
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-buttons">
+
+                                <a href="https://github.com/xdbenja966-cell/Historia-de-los-Mundiales-1930--2026--main" class="project-btn project-btn-code"
+                                    target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                    Ver código
+                                </a>
+
+                                <a href="https://xdbenja966-cell.github.io/Historia-de-los-Mundiales-1930--2026--main/index.html" class="project-btn project-btn-live" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Ver página
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="web educacion" data-year="6">
+                        <img src="assets/logo.png" alt="Tecnica-3">
+                        <div class="project-info">
+                            <h3>Pagina sobre la Escuela Tecnica Nº3</h3>
+                            <p>
+                                Esta página fue creada por un estudiante de la Escuela de Educación Secundaria Técnica
+                                N° 3 como un espacio no oficial para compartir novedades avisos útiles fechas
+                                importantes proyectos de taller eventos y mantener conectados e informados a todos los
+                                alumnos y compañeros de la comunidad educativa.
+                            </p>
+                            <div class="project-tag">
+                                <span>HTML</span>
+                            </div>
+                            <div class="project-tag">
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-tag">
+                                <span>JS</span>
+                            </div>
+                            <div class="project-tag">
+                                <span>README</span>
+                            </div>
+                            <div class="project-buttons">
+
+                                <a href="https://github.com/xdbenja966-cell/proyect-tec3"
+                                    class="project-btn project-btn-code" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                    Ver código
+                                </a>
+
+                                <a href="https://xdbenja966-cell.github.io/proyect-tec3/"
+                                    class="project-btn project-btn-live" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Ver página
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="web" data-year="5">
+                        <img src="assets/rl.jpg" alt="Mundiales">
+                        <div class="project-info">
+                            <h3>Rocket League Fan</h3>
+                            <p>
+                                Esta página web está dedicada al universo de Rocket League reuniendo guías detalladas
+                                sobre cómo se juega mecánicas esenciales sistemas de clasificación y distribución de
+                                rangos además de toda la información sobre la escena competitiva los equipos
+                                profesionales y los torneos internacionales más importantes del mundo
+                            </p>
+                            <div class="project-tag">
+                                <span>HTML</span>
+                            </div>
+                            <div class="project-tag">
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-buttons">
+
+                                <a href="https://github.com/xdbenja966-cell/Pagina-de-Rocket-League" class="project-btn project-btn-code"
+                                    target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                    Ver código
+                                </a>
+
+                                <a href="https://xdbenja966-cell.github.io/Pagina-de-Rocket-League/" class="project-btn project-btn-live" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Ver página
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="juegos" data-year="5">
+                        <img src="assets/ahorkado.png" alt="Juego">
+                        <div class="project-info">
+                            <h3>El Ahorcado</h3>
+                            <p>
+                                Esta página está dedicada al clásico juego del Ahorcado un pasatiempo ideal para poner a
+                                prueba el vocabulario el ingenio y la rapidez mental donde el objetivo es adivinar una
+                                palabra secreta letra por letra antes de que se complete el dibujo y se agoten todos los
+                                intentos disponibles.
+                            </p>
+                            <div class="project-tag">
+                                <span>C++</span>
+                            </div>
+                            <div class="project-buttons">
+
+                                <a href="https://github.com/xdbenja966-cell/El-Ahorcado" class="project-btn project-btn-code"
+                                    target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                    Ver código
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card" data-category="juegos" data-year="5">
+                        <img src="assets/loko.jpg" alt="Juego">
+                        <div class="project-info">
+                            <h3>El Juego Loco</h3>
+                            <p>
+                                Esta página está dedicada a Juego Loco un entretenido pasatiempo de azar y creatividad
+                                donde los jugadores deben elegir un personaje un lugar y un final gracioso para armar
+                                combinaciones totalmente absurdas e inesperadas logrando historias disparatadas ideales
+                                para reírse y pasar un buen rato con amigos
+                            </p>
+                            <div class="project-tag">
+                                <span>C++</span>
+                            </div>
+                            <div class="project-buttons">
+
+                                <a href="https://github.com/xdbenja966-cell/El-Juego-Loco" class="project-btn project-btn-code"
+                                    target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                    Ver código
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card" data-category="web" data-year="6">
+                        <img src="assets/logo.jpg" alt="Mundiales">
+                        <div class="project-info">
+                            <h3>XENTEC</h3>
+                            <p>
+                                Esta página web de Xentek está dedicada a ofrecer un mercado de tecnología donde
+                                encontrás la mejor venta de productos electrónicos soporte técnico especializado y
+                                soluciones tecnológicas pensadas para brindar un servicio completo rápido y confiable a
+                                todos nuestros clientes.<br>
+                                <b>AVISO: Esta en proceso</b>
+                            </p>
+                            <div class="project-tag">
+                                <span>HTML</span>
+                            </div>
+                            <div class="project-tag">
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-tag">
+                                <span>PHP</span>
+                            </div>
+                            <div class="project-tag">
+                                <span>JS</span>
+                            </div>
+                            <div class="project-tag">
+                                <span>EN PROCESO</span>
+                            </div>
+                            <div class="project-buttons">
+
+                                <a href="en-proceso.html" class="project-btn project-btn-live" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Ver Pagina
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="juegos" data-year="6">
+                        <img src="assets/tateti.jpg" alt="TaTeTi">
+                        <div class="project-info">
+                            <h3>Juego TaTeTi</h3>
+                            <p>
+                                El TaTeTi (conocido en otros países como Tres en línea, Cato o Tic-Tac-Toe) es un
+                                clásico juego de lápiz y papel para dos jugadores, ideal para partidas rápidas y
+                                divertidas en
+                                cualquier momento.
+                            </p>
+                            <div class="project-tag">
+                                <span>JS</span>
+                            </div>
+                            <div class="project-buttons">
+
+                                <a href="https://github.com/TU-USUARIO/REPOSITORIO" class="project-btn project-btn-code"
+                                    target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                    Ver código
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORMACIÓN -->
+        <section class="section education" id="formacion">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">MI FORMACIÓN</span>
+                    <h2>Experiencia y<br>formación<span>.</span></h2>
+                </div>
+
+                <div class="education-content">
+
+                    <div class="timeline">
+
+                        <article class="timeline-item">
+                            <span class="timeline-dot"></span>
+                            <div class="timeline-icon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>Actualmente</h3>
+                                <p>Secundaria - Orientación Programación</p>
+                                <span>En curso - E.E.S.T. N.º 3 «Islas Malvinas»</span>
+                            </div>
+                        </article>
+
+                        <article class="timeline-item">
+                            <span class="timeline-dot"></span>
+                            <div class="timeline-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>Conocimientos</h3>
+                                <p>HTML, CSS, JavaScript, C++ y Java</p>
+                                <span>Estudio y práctica constante.</span>
+                            </div>
+                        </article>
+
+                        <article class="timeline-item">
+                            <span class="timeline-dot"></span>
+                            <div class="timeline-icon">
+                                <i class="fa-solid fa-book-open"></i>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>En aprendizaje</h3>
+                                <p>Desarrollo web y nuevas herramientas</p>
+                                <span>Ampliando mis conocimientos.</span>
+                            </div>
+                        </article>
+
+                    </div>
+
+                    <div class="education-quote">
+                        <i class="fa-solid fa-cross"></i>
+                        <p>
+                            "Todo lo puedo en Cristo que me fortalece."
+                        </p>
+                        <span>Filipenses 4:13</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="section contact" id="contacto">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">CONTACTO</span>
+                    <h2>Hablemos<span>.</span></h2>
+                    <p>
+                        Si te interesa mi trabajo, tenés alguna pregunta o querés colaborar en un proyecto, podés
+                        escribirme.
+                    </p>
+                </div>
+
+                <div class="contact-content">
+
+                    <div class="contact-details">
+
+                        <a href="mailto:xdbenja966@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>xdbenja966@gmail.com</span>
+                        </a>
+
+                        <a href="https://github.com/xdbenja966-cell" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>benjaxsg.09</span>
+                        </a>
+
+                        <div class="contact-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Lanús, Buenos Aires, Argentina</span>
+                        </div>
+
+                    </div>
+
+                    <form class="contact-form" id="contact-form">
+
+                        <input type="text" id="name" placeholder="Nombre" required>
+
+                        <input type="email" id="email" placeholder="Correo electrónico" required>
+
+                        <textarea id="message" placeholder="Mensaje" required></textarea>
+
+                        <button type="submit" class="btn btn-primary">
+                            Enviar mensaje <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <button class="back-to-top" id="back-to-top" aria-label="Volver al inicio">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <p>© 2026 Benjamín Suárez. Todos los derechos reservados.</p>
+
+            <div class="social-links">
+                <a href="https://github.com/xdbenja966-cell" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/benjaxsg.09/" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="mailto:xdbenja966@gmail.com" aria-label="Correo">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
