@@ -87,6 +87,36 @@ img {
     margin-top: 15px;
 }
 
+
+/* Personalización de la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Fondo de la barra */
+::-webkit-scrollbar-track {
+    background: #111111;
+}
+
+/* Barra que se desplaza */
+::-webkit-scrollbar-thumb {
+    background: #b82025;
+    border-radius: 10px;
+    border: 2px solid #111111;
+}
+
+/* Efecto al pasar el mouse */
+::-webkit-scrollbar-thumb:hover {
+    background: #e63946;
+}
+
+/* Compatibilidad con Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #b82025 #111111;
+}
+
+
 /* =================================
    ENCABEZADO Y NAVEGACIÓN
 ================================= */
