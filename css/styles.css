@@ -978,6 +978,12 @@ html {
     margin-top: 14px;
 }
 
+.back-to-top.ocultar-footer {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 /* =================================
    TABLETS
 ================================= */

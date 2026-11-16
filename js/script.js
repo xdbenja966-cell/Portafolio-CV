@@ -132,6 +132,7 @@ const sections = document.querySelectorAll("main section");
 const navigationLinks = document.querySelectorAll(".nav-link");
 const progressBar = document.getElementById("scroll-progress");
 const backToTop = document.getElementById("back-to-top");
+const footer = document.querySelector(".footer");
 
 function actualizarNavegacion() {
     const desplazamiento = window.scrollY;
@@ -145,6 +146,11 @@ function actualizarNavegacion() {
     progressBar.style.width = progreso + "%";
 
     backToTop.classList.toggle("show", desplazamiento > 350);
+
+    // Ocultar la flecha cuando aparece el footer
+    const footerVisible = footer.getBoundingClientRect().top < window.innerHeight;
+
+    backToTop.classList.toggle("ocultar-footer", footerVisible);
 
     let seccionActual = "inicio";
 
