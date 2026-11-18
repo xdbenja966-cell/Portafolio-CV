@@ -1,18 +1,18 @@
 # Mi Portafolio Web
 
-## 📌 ¿Qué es este proyecto?
+## ¿Qué es este proyecto?
 
 Este proyecto es mi portafolio web personal, desarrollado con el objetivo de presentar quién soy, mis conocimientos en programación y los diferentes proyectos que fui realizando durante mi formación académica.
 
 En este sitio reúno información sobre mi perfil, las tecnologías que utilizo y algunos de mis trabajos, organizados en diferentes secciones para facilitar la navegación.
 
-## 🎯 Objetivo
+## Objetivo
 
 Mi objetivo con este portafolio es contar con un espacio propio donde pueda mostrar lo que aprendí, compartir mis proyectos y reflejar mi progreso como estudiante de programación.
 
 También busco seguir mejorándolo e incorporar nuevos conocimientos y desarrollos a medida que avance en mi formación.
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 Para desarrollar este proyecto utilicé las siguientes tecnologías:
 
@@ -21,7 +21,7 @@ Para desarrollar este proyecto utilicé las siguientes tecnologías:
 - **JavaScript:** para incorporar interactividad y funcionalidades dinámicas.
 - **Git y GitHub:** para gestionar las versiones y almacenar el código del proyecto.
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 La organización de los archivos está dividida en diferentes carpetas, con el propósito de mantener el código ordenado y facilitar su mantenimiento.
 
@@ -41,7 +41,7 @@ Portafolio/
 └── README.md
 ```
 
-## 📄 Secciones del sitio
+## Secciones del sitio
 
 Organicé el portafolio en diferentes secciones:
 
@@ -51,7 +51,7 @@ Organicé el portafolio en diferentes secciones:
 - **Proyectos:** presento algunos de los trabajos que desarrollé.
 - **Contacto:** incluyo mis medios de contacto y perfiles profesionales.
 
-## 💻 Mis proyectos
+## Mis proyectos
 
 En esta sección presento algunos de los proyectos que fui desarrollando durante mi aprendizaje.
 
@@ -62,7 +62,7 @@ Entre ellos se encuentran:
 - **Geografía de Argentina:** una página web dedicada a presentar información geográfica del país.
 - **Otros proyectos:** diferentes trabajos académicos y personales que forman parte de mi aprendizaje.
 
-## ✨ Características principales
+## Características principales
 
 - Diseño moderno y minimalista.
 - Adaptación a diferentes tamaños de pantalla.
@@ -71,7 +71,7 @@ Entre ellos se encuentran:
 - Presentación organizada de mis proyectos.
 - Accesos a mis redes y medios de contacto.
 
-## ⚙️ ¿Cómo ejecutar el proyecto?
+## ¿Cómo ejecutar el proyecto?
 
 Si querés visualizar el portafolio desde tu computadora, podés seguir estos pasos:
 
@@ -80,7 +80,7 @@ Si querés visualizar el portafolio desde tu computadora, podés seguir estos pa
 3. Ejecutá el archivo `index.html` desde tu navegador.
 4. También podés utilizar Live Server para visualizar los cambios mientras trabajás.
 
-## 👨‍💻 Sobre mí
+## Sobre mí
 
 Soy Benjamín Suárez, estudiante de secundaria con orientación en Programación.
 
@@ -88,7 +88,7 @@ Me interesa el desarrollo web, la tecnología y la creación de proyectos que me
 
 Este portafolio representa una parte de mi recorrido y aprendizaje en el mundo de la programación.
 
-## 📜 Licencia
+## Licencia
 
 Este proyecto fue desarrollado con fines educativos y personales.
 
