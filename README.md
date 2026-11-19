@@ -1,99 +1,146 @@
-# Mi Portafolio Web
+# Mi Portafolio Web - Benjamín Suárez
 
-## ¿Qué es este proyecto?
+## ¿Qué es?
 
-Este proyecto es mi portafolio web personal, desarrollado con el objetivo de presentar quién soy, mis conocimientos en programación y los diferentes proyectos que fui realizando durante mi formación académica.
+Este proyecto es mi portafolio web personal. Lo desarrollé para mostrar quién soy, qué conocimientos fui adquiriendo y algunos de los trabajos que realicé durante mi formación en Programación.
 
-En este sitio reúno información sobre mi perfil, las tecnologías que utilizo y algunos de mis trabajos, organizados en diferentes secciones para facilitar la navegación.
+La idea es tener un espacio donde pueda presentar mis habilidades, tecnologías que conozco, proyectos y formación académica de una manera organizada y visual.
 
-## Objetivo
+## ¿Cómo funciona?
 
-Mi objetivo con este portafolio es contar con un espacio propio donde pueda mostrar lo que aprendí, compartir mis proyectos y reflejar mi progreso como estudiante de programación.
+Mi portafolio está desarrollado utilizando tres tecnologías principales:
 
-También busco seguir mejorándolo e incorporar nuevos conocimientos y desarrollos a medida que avance en mi formación.
+- **HTML:** lo utilicé para crear la estructura y organizar el contenido de cada sección.
+- **CSS:** lo utilicé para diseñar la página, definir los colores, tamaños, posiciones, animaciones y adaptar el sitio a diferentes dispositivos.
+- **JavaScript:** lo utilicé para agregar interactividad, como los filtros de proyectos, el menú de navegación y otras funciones.
 
-## Tecnologías utilizadas
+La página está dividida en diferentes secciones:
 
-Para desarrollar este proyecto utilicé las siguientes tecnologías:
+- **Inicio:** presenta mi nombre y una introducción.
+- **Sobre mí:** comparto información personal y mi interés por la programación.
+- **Habilidades:** muestro los lenguajes y herramientas que conozco.
+- **Proyectos:** presento los trabajos que fui realizando en 5.º y 6.º año, con filtros por categoría y año.
+- **Formación:** muestro mi recorrido académico.
+- **Contacto:** permite encontrar mis datos de contacto y completar un formulario.
 
-- **HTML5:** para crear la estructura y organizar el contenido de la página.
-- **CSS3:** para trabajar el diseño, los colores, las animaciones y la adaptación a diferentes dispositivos.
-- **JavaScript:** para incorporar interactividad y funcionalidades dinámicas.
-- **Git y GitHub:** para gestionar las versiones y almacenar el código del proyecto.
+## Tecnologías y herramientas
+
+Estas son algunas de las tecnologías y herramientas que utilicé para desarrollar el proyecto:
+
+- HTML5
+- CSS3
+- JavaScript
+- Visual Studio Code
+- Git
+- GitHub
+- Figma
 
 ## Estructura del proyecto
 
-La organización de los archivos está dividida en diferentes carpetas, con el propósito de mantener el código ordenado y facilitar su mantenimiento.
+El proyecto está organizado en diferentes carpetas y archivos para mantener el código ordenado:
 
 ```text
-Portafolio/
+portafolio-cv/
 │
 ├── index.html
+│
 ├── css/
 │   └── styles.css
+│
 ├── js/
 │   └── script.js
+│
 ├── assets/
-│   ├── img/
-│   ├── icons/
-│   └── fonts/
+│   └── imágenes y recursos
 │
 └── README.md
 ```
 
-## Secciones del sitio
+## ¿Cómo clonar el repositorio?
 
-Organicé el portafolio en diferentes secciones:
+Si querés tener una copia del proyecto en tu computadora, podés clonarlo utilizando Git.
 
-- **Inicio:** presento una introducción sobre mí y el propósito del sitio.
-- **Sobre mí:** comparto información sobre mi perfil y formación académica.
-- **Habilidades:** muestro los lenguajes y tecnologías que conozco.
-- **Proyectos:** presento algunos de los trabajos que desarrollé.
-- **Contacto:** incluyo mis medios de contacto y perfiles profesionales.
+**1.** Primero, necesitás tener instalado Git.
 
-## Mis proyectos
+**2.** Abrí una terminal y ejecutá el siguiente comando:
 
-En esta sección presento algunos de los proyectos que fui desarrollando durante mi aprendizaje.
+```bash
+git clone https://github.com/TU-USUARIO/portafolio-cv.git
+```
 
-Entre ellos se encuentran:
+**3.** Entrá en la carpeta del proyecto:
 
-- **Página web escolar:** un sitio institucional desarrollado para una escuela técnica.
-- **Ta-Te-Ti:** un juego interactivo desarrollado mediante programación.
-- **Geografía de Argentina:** una página web dedicada a presentar información geográfica del país.
-- **Otros proyectos:** diferentes trabajos académicos y personales que forman parte de mi aprendizaje.
+```bash
+cd portafolio-cv
+```
 
-## Características principales
+**4.** Abrí el proyecto con Visual Studio Code:
 
-- Diseño moderno y minimalista.
-- Adaptación a diferentes tamaños de pantalla.
-- Navegación entre secciones.
-- Animaciones y efectos visuales.
-- Presentación organizada de mis proyectos.
-- Accesos a mis redes y medios de contacto.
+```bash
+code .
+```
 
-## ¿Cómo ejecutar el proyecto?
+Si no tenés disponible ese comando, también podés abrir la carpeta directamente desde Visual Studio Code.
 
-Si querés visualizar el portafolio desde tu computadora, podés seguir estos pasos:
+**5.** Para visualizar la página, abrí el archivo `index.html` en tu navegador.
 
-1. Cloná o descargá este repositorio.
-2. Abrí la carpeta del proyecto en Visual Studio Code.
-3. Ejecutá el archivo `index.html` desde tu navegador.
-4. También podés utilizar Live Server para visualizar los cambios mientras trabajás.
+## ¿Qué puedo hacer con Git?
 
-## Sobre mí
+Utilicé Git para llevar un seguimiento de los cambios que voy realizando en el proyecto y poder guardar distintas versiones del código.
 
-Soy Benjamín Suárez, estudiante de secundaria con orientación en Programación.
+Si tenés Git instalado, podés utilizar estos comandos:
 
-Me interesa el desarrollo web, la tecnología y la creación de proyectos que me permitan poner en práctica los conocimientos que voy adquiriendo.
+**Consultar el estado de los archivos:**
 
-Este portafolio representa una parte de mi recorrido y aprendizaje en el mundo de la programación.
+```bash
+git status
+```
 
-## Licencia
+**Agregar los cambios:**
 
-Este proyecto fue desarrollado con fines educativos y personales.
+```bash
+git add .
+```
 
-Los derechos de autor del diseño y del código original me pertenecen. Para utilizar, modificar o distribuir el proyecto, es necesario contar con mi autorización.
+**Guardar los cambios con un mensaje:**
+
+```bash
+git commit -m "Actualización del portafolio"
+```
+
+**Subir los cambios a GitHub:**
+
+```bash
+git push
+```
+
+**Actualizar tu copia local con los últimos cambios del repositorio:**
+
+```bash
+git pull
+```
+
+También podés crear ramas para trabajar en nuevas modificaciones sin afectar directamente la rama principal.
+
+> Para subir cambios al repositorio original necesitás tener los permisos correspondientes. Si solamente clonaste el proyecto, podés trabajar en tu propia copia.
+
+## ¿Qué puedo modificar?
+
+Podés explorar el código y realizar tus propias modificaciones, por ejemplo:
+
+- Cambiar los colores y estilos desde `css/styles.css`.
+- Modificar los textos y las secciones desde `index.html`.
+- Agregar nuevas funciones desde `js/script.js`.
+- Incorporar imágenes y otros recursos dentro de `assets/`.
+- Agregar nuevos proyectos a la sección correspondiente.
+
+## Objetivo del proyecto
+
+Mi objetivo con este portafolio es mostrar lo que fui aprendiendo durante mis años de estudio, reunir mis trabajos en un solo lugar y seguir mejorando mis conocimientos en desarrollo web.
+
+Es un proyecto que puedo continuar actualizando a medida que aprenda nuevas tecnologías y desarrolle nuevos trabajos.
 
 ---
 
-**Estado del proyecto:** En desarrollo.
+**Desarrollado por Benjamín Suárez.**  
+Proyecto personal de formación en Programación.
