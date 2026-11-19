@@ -408,12 +408,12 @@ html {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    transition: 0.3s;
+    transition: border-color 0.3s ease;
 }
 
 .skill-card:hover {
     border-color: var(--primary);
-    transform: translateY(-5px);
+    transform: none;
 }
 
 .skill-card i {
@@ -591,6 +591,28 @@ html {
     transition: 0.3s;
 }
 
+/* ETIQUETA DE COLABORACIÓN */
+
+.proyecto-colaboracion {
+    position: relative;
+}
+
+.etiqueta-colaboracion {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 2;
+    background: var(--primary);
+    color: white;
+    padding: 6px 13px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
 .project-card:hover {
     border-color: var(--primary);
     transform: translateY(-5px);
@@ -685,6 +707,7 @@ html {
     transform: translateY(-3px);
 }
 
+
 /* =================================
    FORMACIÓN
 ================================= */
@@ -706,6 +729,7 @@ html {
 
 
 .timeline-item {
+    color: #ff0000;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -758,12 +782,11 @@ html {
 
 .education-quote i {
     font-size: 2rem;
-    color: var(--primary);
+    color: #ffe606;
     margin-bottom: 20px;
 }
 
 .education-quote p {
-    color: var(--text-secondary);
     font-style: italic;
     font-size: 1.1rem;
 }
@@ -928,7 +951,7 @@ html {
     transform: translateY(0);
 }
 
-.skill-card, .project-card, .info-card, .timeline-item,
+.project-card, .info-card, .timeline-item,
 .education-quote, .contact-form {
     transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }

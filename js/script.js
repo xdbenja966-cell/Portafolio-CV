@@ -51,19 +51,31 @@ let anioActual = 6;
 function filtrarProyectos() {
     projectCards.forEach(card => {
         const categorias = card.dataset.category.split(" ");
+
         const mismoAnio = Number(card.dataset.year) === anioActual;
 
         const mismaCategoria =
             categoriaActual === "todos" ||
             categorias.includes(categoriaActual);
 
-        card.classList.toggle(
-            "hidden",
-            !(mismoAnio && mismaCategoria)
-        );
+        // "Todo" muestra los proyectos de ambos años.
+        // Las demás categorías respetan el año seleccionado.
+
+        const mostrarProyecto =
+            categoriaActual === "todos"
+                ? true
+                : mismoAnio && mismaCategoria;
+
+        card.classList.toggle("hidden", !mostrarProyecto);
     });
 
-    selectedYearText.textContent = `Proyectos de ${anioActual}° año`;
+    // Actualizar el texto del año seleccionado.
+
+    if (categoriaActual === "todos") {
+        selectedYearText.textContent = "Todos los proyectos";
+    } else {
+        selectedYearText.textContent = `Proyectos de ${anioActual}° año`;
+    }
 }
 
 // Cambiar categoría sin perder el año seleccionado.
@@ -74,6 +86,7 @@ filterButtons.forEach(button => {
         button.classList.add("active");
 
         categoriaActual = button.dataset.filter;
+
         filtrarProyectos();
     });
 });
@@ -136,6 +149,7 @@ const footer = document.querySelector(".footer");
 
 function actualizarNavegacion() {
     const desplazamiento = window.scrollY;
+
     const recorrido =
         document.documentElement.scrollHeight - window.innerHeight;
 
@@ -147,8 +161,10 @@ function actualizarNavegacion() {
 
     backToTop.classList.toggle("show", desplazamiento > 350);
 
-    // Ocultar la flecha cuando aparece el footer
-    const footerVisible = footer.getBoundingClientRect().top < window.innerHeight;
+    // Ocultar la flecha cuando aparece el footer.
+
+    const footerVisible =
+        footer.getBoundingClientRect().top < window.innerHeight;
 
     backToTop.classList.toggle("ocultar-footer", footerVisible);
 
