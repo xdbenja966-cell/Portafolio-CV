@@ -65,7 +65,7 @@ Si querés tener una copia del proyecto en tu computadora, podés clonarlo utili
 **2.** Abrí una terminal y ejecutá el siguiente comando:
 
 ```bash
-git clone https://github.com/TU-USUARIO/portafolio-cv.git
+git clone https://github.com/xdbenja966-cell/portafolio-cv.git
 ```
 
 **3.** Entrá en la carpeta del proyecto:
